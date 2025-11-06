@@ -1,0 +1,101 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Profile Card (LAB 10)</title> 
+    <style> 
+       body {
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210710/pngtree-light-yellow-background-yellow-color-blur-gradient-image_738345.jpg');
+  background-size: cover;
+  background-position: center center;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.profile-card {
+  width: 350px;
+  background-color: rgb(101, 236, 180);
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+.profile-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+  margin-bottom: 15px;
+  background-color: #fce4ec; 
+}
+
+.profile-card h1 {
+  margin: 10px 0 5px 0;
+  font-size: 24px;
+}
+
+.profile-card p {
+  color: #333;
+  margin: 5px 0;
+}
+
+.profile-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 20px 0;
+}
+
+.profile-card ul li {
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+.profile-card button {
+  background-color: white;
+  border: 2px solid black;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.profile-card button:hover {
+  background-color: black;
+  color: white;
+}
+</style>
+</head>
+
+<body>
+
+<div class="profile-card">
+  <img src="image.jpg" alt="Profile Picture">
+
+  <h1>Asees Jot Singh</h1>
+  <p>Web Developer & Student</p>
+  <p>Passionate coder, and eager learner</p>
+
+  <ul>
+    <li>📍 Location: New Delhi, India</li>
+    <li>💼 Profession: Student</li>
+    <li>🎓 Field: Computer Science</li>
+  </ul>
+<form action="../../index.html">
+  <input type="submit" value="View Profile">
+  </form>
+</div>
+
+</body>
+
+</html>
+
+
